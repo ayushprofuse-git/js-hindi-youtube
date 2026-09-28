@@ -7,5 +7,29 @@ console.log(3+
     3);
 console.log("My name is Ayush");
 
-let n
+let name = "Ayush"
+let age = 22
+let isLoggedIn = true
+
+//PRIMITIVE DATA TYPES OF JAVASCRIPT
+
+// number till 2^53
+// bigint => in too lage data like stock and shares.
+// string=> ""
+// boolean => true or false
+// null   It is a stand alone value
+// undefined    When value is not defined
+// symbol  => unique
+
+// object
+
+console.log(typeof "ayush");
+// string
+console.log(typeof age);
+//number
+console.log(typeof null);
+//object
+console.log(typeof undefined);
+//undefined
+
 
