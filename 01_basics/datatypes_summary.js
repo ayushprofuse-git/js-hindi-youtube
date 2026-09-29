@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "ayushshukla@gmail.com"
+
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {                          // This whole will be inside a aHeap as it is a non primitive data
+    email: "ayushshukla5281@mail.com",
+    upi: "userxyz@ybl"
+}
+
+let userTwo = userOne // userOne's detail has been assigned to the user One.
+
+userTwo.email = "jhgvfasc@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
